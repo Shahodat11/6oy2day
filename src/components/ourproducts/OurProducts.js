@@ -2,6 +2,9 @@ import React from 'react'
 import  '../ourproducts/ourproducts.css'
 import mainLogo from '../images/Frame 619 (4).svg'
 import mainImg from '../images/Frame 616.svg'
+import svg from '../images/Frame 566.svg'
+import { IoHeartOutline } from "react-icons/io5";
+import { LuEye } from "react-icons/lu";
 
 function OurProducts() {
  const data = [
@@ -56,11 +59,13 @@ function OurProducts() {
 ];
 let mapCard = data?.map((products) => (
   <div className="products__card" key={products.id}>
+    <IoHeartOutline />
+    <LuEye />
     <div className="card-hero-img">
       <img src={products.img} alt="product-img" />
     </div>
     <h2>{products.title}</h2>
-    <h6>{products.price}$</h6>
+    <h6>${products.price} <img src={svg} alt="" /></h6>
   </div>
 ));
 

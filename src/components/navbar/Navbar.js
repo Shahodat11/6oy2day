@@ -8,13 +8,13 @@ import { IoCartOutline } from "react-icons/io5";
 function Navbar() {
   return (
     <>
-    <div class="container">
+    <div className="container">
       <div className="nav-link2">
         <div className="nav1">
           <img src={Logo} alt="" />
         </div>
         <div className="nav2">
-          <ul class="nav-items" id="navbar-responsive">
+          <ul className="nav-items" id="navbar-responsive">
             <li>
               <a href="./index.html">Home </a>
             </li>

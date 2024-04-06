@@ -4,13 +4,13 @@ function Headertop() {
   return (
     <>
     <div className="container">
-      <div class="nav-link1">
-        <div class="top">
-          <p class="p">
+      <div className="nav-link1">
+        <div className="top">
+          <p className="p">
             Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
           </p>
           </div>
-          <div class="nav1">
+          <div className="nav1">
             <a href="#">ShopNow</a>
           </div>
           <select className='option' name="option" id="lang"><option value="English">English</option>
